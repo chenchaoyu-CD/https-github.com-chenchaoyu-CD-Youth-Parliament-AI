@@ -1,0 +1,19 @@
+curl --location --request POST "https://cqhbkdstcz.coze.site/stream_run" \
+  --header "Authorization: Bearer <YOUR_TOKEN>" \
+  --header "Content-Type: application/json" \
+  --data '{
+      "content": {
+        "query": {
+          "prompt": [
+            {
+              "type": "text",
+              "content": {
+                "text": ""
+              }
+            }
+          ]
+        }
+      },
+      "type": "query",
+      "project_id": 7589089184384761856
+    }'
